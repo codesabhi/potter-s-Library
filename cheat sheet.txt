@@ -1,0 +1,15 @@
+touch .gitignore
+git init
+git add .
+git commit -m "Initial commit"
+git status # just to see if your working tree clean or not
+then copy the link ssh-keygen -t rsa -b 4096 -C "yadavabhishek241296@gmail.com"
+git remote add origin [paste the above link]
+git push origin master
+copy the generated ssh key and paste it on the bash and then enter two times
+after that copy the public key path
+cat [then paste the above key path]
+then copy the ssh key and paste on the github ssh key space
+git push origin master
+
+then all the folder succesfully uploaded on my github account.

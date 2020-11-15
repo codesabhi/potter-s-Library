@@ -1,4 +1,4 @@
-console.log("this is index.js")
+console.log("this is index.js using object prototype method.")
 
 function Book(name, author, type) {
     this.name = name;

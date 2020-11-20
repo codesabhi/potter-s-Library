@@ -1,5 +1,6 @@
 console.log("this is index.js using object prototype method.")
 
+// book constructor
 function Book(name, author, type) {
     this.name = name;
     this.author = author;
